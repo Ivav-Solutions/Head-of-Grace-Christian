@@ -170,7 +170,7 @@
 			$(".zmm-main-nav .navbar-main").removeClass("theme-main-menu").addClass("theme-mobile-menu");
 			
 			//Add toggle dropdown icon
-			// $( ".zmm-wrapper .zmm-inner" ).find('.dropdown, .mega-dropdown-col').append( '<span class="zmm-dropdown-toggle ti-plus"></span>' );
+			$( ".zmm-wrapper .zmm-inner" ).find('.dropdown, .mega-dropdown-col').append( '<span class="zmm-dropdown-toggle ti-plus"></span>' );
 			$( ".zmm-wrapper .zmm-inner" ).find('.dropdown-menu, .mega-dropdown-child').addClass( 'sub-nav' );
 			
 			//Remove unwanted class names in zmm-wrapper
