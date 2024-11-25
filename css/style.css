@@ -156,7 +156,7 @@
 
 body {
 
-	font-family: 'Open Sans';
+	font-family: 'Poppins';
 
 	-webkit-font-smoothing: antialiased;
 
@@ -16177,9 +16177,9 @@ body.rtl.push-active .page-wrapper.right-push .sticky-nav-inner, body.rtl.overla
 @media only screen and (max-width: 991px) {
 
 	.get-quote-2 .title {
-
-		text-align: center;
-
+        text-align: left;
+        font-size: 1.4rem;
+        margin-top: 1rem;
 	}
 
 }
