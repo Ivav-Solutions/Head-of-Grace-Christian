@@ -9315,7 +9315,7 @@ span.feature-count {
 
   width: 100%;
 
-  height: 355px;
+  height: 455px;
 
   perspective: 1000px;
 
@@ -17372,13 +17372,19 @@ body.rtl.push-active .page-wrapper.right-push .sticky-nav-inner, body.rtl.overla
 
     margin: 0 50px;
 
-    margin-top: -70px;
+    margin-top: 10px;
 
     margin-bottom: 40px;
 
+    display: flex;
+
+    justify-content: center;
+
+    text-align: center;
+
 }
 
-.sermon-view-wrapper:before {
+/* .sermon-view-wrapper:before {
 
     content: "";
 
@@ -17400,7 +17406,7 @@ body.rtl.push-active .page-wrapper.right-push .sticky-nav-inner, body.rtl.overla
 
     transform: rotate(27deg);
 
-}
+} */
 
 .single-sermon .sermon-play-list li a, .single-sermon .sermon-tool-list li a {
 
@@ -18085,5 +18091,15 @@ rs-slide .wpcf7 input[type=submit] {
 .theme-mobile-menu .cus-img-menu .img-menu .title-wrap p a {
 
     display: inline-block;
+
+}
+
+@media only screen and (max-width: 1022px) {
+
+	.giveMenu {
+
+		display: block !important;
+
+	}
 
 }
