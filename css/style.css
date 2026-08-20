@@ -2117,7 +2117,7 @@ header.header-absolute {
 
 .header-2 .navbar-items img {
     margin-top: -4px;
-    width: 80px;
+    /* width: 80px; */
 }
 
 /*Header 3*/
